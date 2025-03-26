@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let entradaAnterior = '';
     let operacion = null;
     let reiniciarPantalla = false;
-
-    // Asignar eventos a los botones
+    
     botones.forEach(boton => {
         if (boton.id !== 'clear' && boton.id !== 'equals') {
             boton.addEventListener('click', () => {
